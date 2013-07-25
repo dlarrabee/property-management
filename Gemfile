@@ -44,6 +44,11 @@ end
 
 gem 'haml-rails'
 
+gem 'activeadmin',         github: 'gregbell/active_admin',         branch: 'rails4'
+gem 'ransack',             github: 'ernie/ransack',                 branch: 'rails-4'
+gem 'inherited_resources', github: 'josevalim/inherited_resources'
+gem 'formtastic',          github: 'justinfrench/formtastic'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
