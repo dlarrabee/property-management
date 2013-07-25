@@ -5,9 +5,6 @@ ruby "2.0.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-# Use mysql as the database for Active Record
-gem 'mysql2'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -48,6 +45,11 @@ gem 'activeadmin',         github: 'gregbell/active_admin',         branch: 'rai
 gem 'ransack',             github: 'ernie/ransack',                 branch: 'rails-4'
 gem 'inherited_resources', github: 'josevalim/inherited_resources'
 gem 'formtastic',          github: 'justinfrench/formtastic'
+
+gem 'rails_12factor', group: :production
+gem 'pg'
+gem 'unicorn'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
