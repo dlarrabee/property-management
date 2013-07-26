@@ -49,6 +49,7 @@ gem 'formtastic',          github: 'justinfrench/formtastic'
 gem 'rails_12factor', group: :production
 gem 'pg'
 gem 'unicorn'
+gem 'twitter-bootstrap-rails'
 
 
 # Use ActiveModel has_secure_password

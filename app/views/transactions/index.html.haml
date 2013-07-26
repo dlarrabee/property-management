@@ -1,8 +1,10 @@
-%table
-  %tr
-    %th="Month"
-    %th="Subtotal"
-  -@summaries.each do |month_year, subtotal|
-    %tr
-      %td=month_year
-      %td=subtotal
+.row
+  .span4=""
+  .span8
+    .row
+      .span4="Month"
+      .span4="Total"
+    -@summaries.each do |month_year, subtotal|
+      .row
+        .span4=month_year
+        .span4=subtotal
