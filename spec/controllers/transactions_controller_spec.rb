@@ -3,11 +3,8 @@ require 'spec_helper'
 describe TransactionsController do
 
   describe "#index" do
+    before { get :index }
 
-    it "should show transactions for the current year by default" do
-      get :index
-      expect(response).to render_template('index')
-    end
+    it { should respond_with(:success) }
   end
-
 end

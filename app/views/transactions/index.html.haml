@@ -1,1 +1,8 @@
-=render collection: @transactions, partial: 'transaction'
+%table
+  %tr
+    %th="Month"
+    %th="Subtotal"
+  -@summaries.each do |month_year, subtotal|
+    %tr
+      %td=month_year
+      %td=subtotal
